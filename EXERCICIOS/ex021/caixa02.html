@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            background-color: #bbbdbc;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        header > h1{
+            text-align: center;
+        }
+        nav{
+            background-color:#727473 ;
+            margin: auto;
+            padding: 4px;
+            box-shadow: 1px 1px 1px #3c3d3d70;
+        }
+        nav > a {
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        article{
+            background-color: #bbbdbc;
+            border-radius: 5px;
+            padding: auto;
+            margin: auto;
+        }
+        article > p {
+            margin-right: 10px;
+            margin-left: 10px;
+            padding-bottom: 10px;
+        }
+        article > h2{
+            margin-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 3px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        } 
+        footer > p > a {
+            color: white;
+            text-decoration: none;
+            margin: 0px;
+            
+        }
+        footer > p > a:hover{
+            text-decoration: underline;
+        }
+        #bola{
+            margin-top: 20px;
+            margin-left: 20px;
+            background-color: white;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+   </header>
+   <main>
+        <section>
+            <p>teste teste e teste </p>
+                <article>
+                    <h2>Noticias do brasil</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore dolorem voluptatem, reprehenderit repellendus pariatur aliquam excepturi vel beatae autem unde ipsam ab omnis. Animi consequatur voluptatum dignissimos magnam dolorem autem.</p>
+                </article>
+        </section>
+        <section>
+                <article>
+                    <h2>Noticias da cidade</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, assumenda similique cumque doloribus praesentium error porro eaque magnam consequuntur, perferendis ea delectus nam voluptatibus. Distinctio laborum quas repellendus est nobis?</p>
+                </article>
+        </section>
+   </main>
+   
+   <footer>
+        <p>Desenvolvido por <a href="#">Fellipe André</a></p>
+   </footer>
+   <div id="bola"></div>
+</body>
+</html>

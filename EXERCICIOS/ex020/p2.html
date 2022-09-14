@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXEMPLO DE HOVER</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            height: 20px;
+            width: 40px;
+            border: 1px solid black;
+            background-color: lightgrey;
+        }
+
+        div > p {
+            display: none;
+        }
+        div:hover{ 
+            background-color: blue;
+        }
+        div:hover > p {
+            background-color: rgba(150, 150, 175, 0.548);
+            display: block;
+            height: 60px;
+            width: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <a href="../ex020/pseudoclasse.html">
+        <div>
+            Voltar
+            <p>Ja vai? fica mais um pouquinho</p>
+        </div>
+    </a>
+</body>
+</html>
