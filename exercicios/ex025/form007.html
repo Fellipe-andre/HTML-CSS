@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de Formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+    <p>
+        <label for="iest">Estado:</label>
+        <select name="estado" id="iest">
+            <option value="">ESCOLHA UM ESTADO</option>
+            <optgroup label="Suldeste">
+                <option value="MG">Minas gerais</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de janeiro</option>
+            </optgroup>
+        </select>
+    </p>
+    
+    <p>
+        <label for="iprof">Profissão: </label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option>ADMISTRAÇÂO</option>
+        </datalist>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+       
+    </p>
+        
+    </form>
+</body>
+</html>
