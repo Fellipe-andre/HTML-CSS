@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;          
+        }
+        div{
+            display: block;
+            margin-left: 65vw;
+            padding: 5px;
+            max-width: 450px;
+            width: 30vw;
+            border-radius: 20px;
+            background-color: lightblue;
+            text-align: justify;
+        }
+        body{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Teste de Formilario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <div>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required maxlength="20" size="15" placeholder="Nome completo" autocomplete="name">
+            
+            </p>
+           
+            <p>
+                <label for="inasc">Data de nascimento</label>
+                <input type="date" name="nasc" id="inasc">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </div>
+    </form>
+</body>
+</html>
